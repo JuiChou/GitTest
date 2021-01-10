@@ -12,15 +12,15 @@ public class TestBMI {
 		System.out.printf("BMI = %.2f%n", bmi); //printf(格式),%.f(浮點數格式) %.2f%n 取到小數點後第二位且換行
 		
 		if (bmi<18.5) {
-			System.out.println("過瘦");
+			System.out.println("過瘦!");
 		}
 		
 		else if (bmi>=24) {				//(18.5<=bmi<24)-->會先運算18.5<=18.5(結果為布林值) 無法再運算
-			System.out.println("過胖");
+			System.out.println("過胖!!!!");
 		}
 		
 		else {
-			System.out.println("正常");
+			System.out.println("正常!!");
 		}
 		
 		

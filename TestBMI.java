@@ -5,7 +5,9 @@ public class TestBMI {
 	public static void main(String[] args) {
 		
 		double height = 1.65;  // double hight = 1.65, weight = 66.5;
-		double weight = 90.0;
+
+		double weight = 99.9;  // weight = 90.0
+fat
 		double bmi = weight/height/height; // bmi = weight / Math.pow(height, 2); 2=平方,3=立方
 		
 		System.out.println("BMI = " + bmi);

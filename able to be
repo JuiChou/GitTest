@@ -1,0 +1,24 @@
+[33mcommit 4610b14fb0ed19079356f87e4a2139c7aec676c7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: beta[m[33m)[m
+Author: JuiChou <dicek.ile@gmail.com>
+Date:   Sun Jan 10 14:13:37 2021 +0800
+
+    3rd version
+
+[1mdiff --git a/TestBMI.java b/TestBMI.java[m
+[1mindex e8ccf53..6fbb96b 100644[m
+[1m--- a/TestBMI.java[m
+[1m+++ b/TestBMI.java[m
+[36m@@ -12,11 +12,11 @@[m [mpublic class TestBMI {[m
+ 		System.out.printf("BMI = %.2f%n", bmi); //printf(格式),%.f(浮點數格式) %.2f%n 取到小數點後第二位且換行[m
+ 		[m
+ 		if (bmi<18.5) {[m
+[31m-			System.out.println("過瘦");[m
+[32m+[m			[32mSystem.out.println("過瘦=瘦子");[m
+ 		}[m
+ 		[m
+ 		else if (bmi>=24) {				//(18.5<=bmi<24)-->會先運算18.5<=18.5(結果為布林值) 無法再運算[m
+[31m-			System.out.println("過胖");[m
+[32m+[m			[32mSystem.out.println("過胖=胖子");[m
+ 		}[m
+ 		[m
+ 		else {[m
